@@ -21,7 +21,7 @@ repository               : "Xingwei-Tan/Xingwei-Tan.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/1721055701779.jpeg"
+  avatar           : "1721055701779.jpeg"
   name             : "Dr. Xingwei Tan"
   pronouns         : # example: "she/her"  
   bio              : "Research Associate in Natural Language Processing"
