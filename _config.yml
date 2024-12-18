@@ -21,7 +21,7 @@ repository               : "Xingwei-Tan/Xingwei-Tan.github.io/"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "images/1721055701779.jpeg"
   name             : "Dr. Xingwei Tan"
   pronouns         : # example: "she/her"  
   bio              : "Research Associate in Natural Language Processing"
@@ -35,7 +35,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=GAUKDsYAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : #
-  semantic         : "https://scholar.google.com/citations?user=GAUKDsYAAAAJ&hl=en"
+  semantic         : "https://www.semanticscholar.org/author/Xingwei-Tan/30242744"
   pubmed           : #
   researchgate     : # URL
   scopus           : # URL
