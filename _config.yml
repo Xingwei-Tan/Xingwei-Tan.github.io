@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-UK"
-title                    : "Xingwei's Page'"
+title                    : "Xingwei's Page"
 title_separator          : "-"
 name                     : &name "Xingwei Tan"
 description              : &description "personal description"
