@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a reasearch associate in the School of Computer Science, University of Sheffield.
+I'm a reasearch associate in the School of Computer Science, University of Sheffield. I work with Prof. Nikos Aletras on Responsible AI UK's £3.5M Keystone project: Addressing Socio-technical Limitations of LLMs for Medical and Social Computing [AdSoLve] (https://rai.ac.uk/research/keystone-projects/).
 
 I obtained my PhD from Department of Computer Science, University of Warwick, supervised by Prof. Yulan He and Dr. Gabriele Pergola.
 My Thsis is about Understanding Event Relation in Text with Machine Learning methods.
