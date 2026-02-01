@@ -1,10 +1,10 @@
 ---
-title: "Fine-Tuning on Noisy Instructions: Effects on Generalization and Performance"
+title: "Recognizing conflict opinions in aspect-level sentiment classification with dual attention networks"
 collection: publications
-category: conferences
+category: manuscripts
 permalink: /publication/paper0
-date: 2025-11-01
-venue: 'AACL 2025'
-paperurl: 'https://aclanthology.org/2025.ijcnlp-long.41.pdf'
-citation: 'Ahmed Alajrami, Xingwei Tan, and Nikolaos Aletras'
+date: 2019-11-01
+venue: 'EMNLP 2025'
+paperurl: 'https://aclanthology.org/D19-1342.pdf'
+citation: 'Xingwei Tan, Yi Cai, and Changxi Zhu'
 ---
