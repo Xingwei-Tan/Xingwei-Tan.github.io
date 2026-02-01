@@ -10,7 +10,7 @@ redirect_from:
 
 ## About me
 
-I am a Reasearch Associate (post-doc research) in the School of Computer Science, University of Sheffield. 
+I am a Reasearch Associate (post-doc research) at the School of Computer Science, University of Sheffield. 
 I am a member of the EPSRC project "[Addressing Socio-technical Limitations of LLMs for Medical and Social Computing](https://rai.ac.uk/research/keystone-projects/)" ([AdSoLve](https://adsolve.github.io/)), which is funded via Responsible AI UK as a keystone project.
 I am working with Prof. Nikos Aletras on improving logical reasoning and legal reasoning.
 
