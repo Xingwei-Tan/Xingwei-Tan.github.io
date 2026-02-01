@@ -3,7 +3,6 @@ title: "Fine-Tuning on Noisy Instructions: Effects on Generalization and Perform
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
-excerpt: 'This paper is about fixing template issue #693.'
 date: 2025-11-01
 venue: 'AACL 2025'
 paperurl: 'https://aclanthology.org/2025.ijcnlp-long.41.pdf'
