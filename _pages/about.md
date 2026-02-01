@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Welcome to my page 👋"
+title: "谈星伟 (Xingwei Tan)"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
