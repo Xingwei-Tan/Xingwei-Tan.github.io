@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a Research Associate (post-doctoral researcher) at the [School of Computer Science](https://www.sheffield.ac.uk/cs), University of Sheffield, where I work on **reasoning in large language models**. I completed my PhD at the Department of Computer Science, University of Warwick, supervised by Prof. [Yulan He](https://www.kcl.ac.uk/people/yulan-he) and Dr. Gabriele Pergola.<!-- TODO: add a link for Gabriele Pergola; his Warwick staff page has moved. -->
+I am a Research Associate (post-doctoral researcher) at the [School of Computer Science](https://www.sheffield.ac.uk/cs), University of Sheffield, where I work on **reasoning in large language models**. I completed my PhD at the Department of Computer Science, University of Warwick, supervised by Prof. [Yulan He](https://www.kcl.ac.uk/people/yulan-he) and Dr. [Gabriele Pergola](https://warwick.ac.uk/fac/sci/dcs/people/u1898418/).
 
-I work on the EPSRC project "[Addressing Socio-technical Limitations of LLMs for Medical and Social Computing](https://rai.ac.uk/research/keystone-projects/)" ([AdSoLve](https://adsolve.github.io/)), funded by UKRI via Responsible AI UK as a keystone project.
+I work with Prof. [Nikolaos Aletras](https://sheffield.ac.uk/cs/people/academic/nikos-aletras) and Prof. [Maria Liakata](https://www.qmul.ac.uk/eecs/people/profiles/liakatamaria.html) on the EPSRC project "Addressing Socio-technical Limitations of LLMs for Medical and Social Computing" ([AdSoLve](https://rai.ac.uk/new_projects/addressing-socio-technical-limitations-of-llms-for-medical-and-social-computing-adsolve/)), funded by UKRI via Responsible AI UK as a keystone project.
 
 ## Research
 
