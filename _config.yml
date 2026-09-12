@@ -119,10 +119,10 @@ atom_feed:
 
 
 # SEO Related
-# TODO (Xingwei): paste the token from Google Search Console -> Add property ->
-# HTML tag method (the content="..." value only, not the whole tag).
-# Search Console shows which queries surface your page: https://search.google.com/search-console
-google-site-verification: googlecd3a0245291df9e1.html
+# Site verified with Google Search Console via the HTML-file method: the file
+# /googlecd3a0245291df9e1.html at the repo root is what Google checks.
+# This key is the alternative "HTML tag" method - leave blank while the file exists.
+google_site_verification :
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
