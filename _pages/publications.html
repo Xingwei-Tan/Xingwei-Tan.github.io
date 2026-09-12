@@ -5,32 +5,79 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2>
-        {% assign title_shown = true %}
+<style>
+  /* Scoped to this page so the rest of the theme is untouched. */
+  .pub-list { margin-bottom: 2.5em; }
+
+  .pub { margin: 0 0 1.4em; }
+
+  .pub__title {
+    font-size: 1.05em;
+    font-weight: 600;
+    line-height: 1.35;
+    margin-bottom: 0.15em;
+  }
+  .pub__title a { text-decoration: none; }
+  .pub__title a:hover { text-decoration: underline; }
+
+  .pub__authors { font-size: 0.92em; line-height: 1.45; margin-bottom: 0.1em; }
+
+  .pub__meta { font-size: 0.85em; color: #7a8288; }
+  .pub__venue { font-style: italic; }
+
+  .pub__links { margin-left: 0.35em; }
+  .pub__links a {
+    display: inline-block;
+    margin-left: 0.4em;
+    padding: 0.05em 0.5em;
+    border: 1px solid #d5d8dc;
+    border-radius: 3px;
+    font-size: 0.9em;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .pub__links a:hover { background: #f2f3f3; text-decoration: none; }
+
+  .pub-count { font-size: 0.9em; color: #7a8288; margin-bottom: 1.5em; }
+</style>
+
+{% assign all_pubs = site.publications | sort: 'date' | reverse %}
+
+<p class="pub-count">
+  {{ all_pubs | size }} publications. Newest first; my name is in <strong>bold</strong>.
+  {% if site.author.googlescholar %}
+    Also on <a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+  {% endif %}
+</p>
+
+{% for category in site.publication_category %}
+  {% assign cat_key = category[0] %}
+  {% assign cat_pubs = all_pubs | where: 'category', cat_key %}
+  {% if cat_pubs.size > 0 %}
+    <h2 id="{{ cat_key }}">{{ category[1].title }}</h2>
+    <div class="pub-list">
+      {% for post in cat_pubs %}
+        {% include archive-single-publication.html %}
+      {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+
+{% comment %}Anything whose category is not one of the configured ones would otherwise vanish.{% endcomment %}
+{% assign shown = 0 %}
+{% for category in site.publication_category %}
+  {% assign c = all_pubs | where: 'category', category[0] %}
+  {% assign shown = shown | plus: c.size %}
+{% endfor %}
+{% if shown < all_pubs.size %}
+  <h2 id="other">Other</h2>
+  <div class="pub-list">
+    {% for post in all_pubs %}
+      {% unless site.publication_category[post.category] %}
+        {% include archive-single-publication.html %}
       {% endunless %}
-      {% include archive-single.html %}
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+  </div>
 {% endif %}
-
-
-

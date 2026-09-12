@@ -1,4 +1,12 @@
-{% if site.analytics.provider and page.analytics != false %}
+{% comment %}
+  Google providers need a tracking id; without one gtag would emit a script with an
+  empty id on every page. Liquid's `blank` literal does not match a nil YAML value,
+  so normalise to a string and compare explicitly.
+{% endcomment %}
+{% assign ga_id = site.analytics.google.tracking_id | default: "" | strip %}
+{% assign analytics_ready = true %}
+{% if site.analytics.provider contains "google" and ga_id == "" %}{% assign analytics_ready = false %}{% endif %}
+{% if site.analytics.provider and site.analytics.provider != "false" and analytics_ready and page.analytics != false %}
 
 {% case site.analytics.provider %}
 {% when "google" %}

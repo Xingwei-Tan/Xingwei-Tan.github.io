@@ -1,0 +1,18 @@
+---
+layout: archive
+title: "Teaching"
+permalink: /teaching/
+author_profile: true
+---
+
+{% include base_path %}
+
+<p>I have taught natural language processing, logic and formal methods at both undergraduate and
+postgraduate level, and co-supervised <strong>6 Ph.D. students</strong>, whose work has so far
+resulted in <strong>5 peer-reviewed publications</strong> (see
+<a href="{{ base_path }}/publications/">Publications</a>).</p>
+
+{% assign teaching = site.teaching | sort: 'date' | reverse %}
+{% for post in teaching %}
+  {% include archive-single.html %}
+{% endfor %}

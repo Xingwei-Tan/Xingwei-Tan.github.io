@@ -82,28 +82,19 @@ Academic Service
 
 Publications
 ======
-{% assign conf = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
-{% assign jour = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% assign conf_n = site.publications | where: "category", "conferences" | size %}
+{% assign jour_n = site.publications | where: "category", "manuscripts" | size %}
+{{ conf_n | plus: jour_n }} peer-reviewed publications — {{ conf_n }} conference papers and
+{{ jour_n }} journal articles. The full, always-current list lives on the
+[Publications]({{ base_path }}/publications/) page; the PDF above also contains it in full.
 
-Conference Proceedings
-------
-<ul>
-{% for post in conf %}
-  <li>{{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }},
-  {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}.
-  <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.</li>
-{% endfor %}
-</ul>
+Selected:
 
-Journal Articles
-------
-<ul>
-{% for post in jour %}
-  <li>{{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }},
-  {% if post.paperurl %}<a href="{{ post.paperurl }}">{{ post.title }}</a>{% else %}{{ post.title }}{% endif %}.
-  <i>{{ post.venue }}</i>, {{ post.date | date: "%Y" }}.</li>
-{% endfor %}
-</ul>
+* [Fundamental Reasoning Paradigms Induce Out-of-Domain Generalization in Language Models](https://doi.org/10.18653/v1/2026.findings-acl.1653) — *Findings of ACL 2026*
+* [Compliance vs. Sensibility: On the Reasoning Controllability in Large Language Models](https://arxiv.org/abs/2604.27251) — *Findings of EMNLP 2026*
+* [No Shortcuts to Culture: Indonesian Multi-hop Question Answering](https://doi.org/10.1162/TACL.a.726) — *TACL 2026*
+* [Enhancing Logical Reasoning via Symbolically-Guided Monte Carlo Process Supervision](https://aclanthology.org/2025.emnlp-main.1624/) — *EMNLP 2025*
+* [Cascading Large Language Models for Salient Event Graph Generation](https://aclanthology.org/2025.naacl-long.112/) — *NAACL 2025*
 
 References
 ======

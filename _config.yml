@@ -14,7 +14,7 @@ name                     : &name "Xingwei Tan"
 description              : &description "Xingwei Tan is a Research Associate in Natural Language Processing at the University of Sheffield, working on reasoning in large language models."
 url                      : https://xingwei-tan.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "Xingwei-Tan/Xingwei-Tan.github.io/"
+repository               : "Xingwei-Tan/Xingwei-Tan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -119,7 +119,10 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+# TODO (Xingwei): paste the token from Google Search Console -> Add property ->
+# HTML tag method (the content="..." value only, not the whole tag).
+# Search Console shows which queries surface your page: https://search.google.com/search-console
+google-site-verification: googlecd3a0245291df9e1.html
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
@@ -147,10 +150,13 @@ social:
 
 
 # Analytics
+# GA4 Measurement ID goes on `tracking_id` below (Admin -> Data Streams in
+# https://analytics.google.com). If it is left blank, no analytics script is
+# emitted at all - see the guard in _includes/analytics.html.
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider               : "google-analytics-4" # false (default), "google", "google-universal", "google-analytics-4", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "G-7WSM2GX0WT"
 
 
 # Reading Files
@@ -217,6 +223,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  teaching:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -232,6 +241,14 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+  # _teaching
+  - scope:
+      path: ""
+      type: teaching
     values:
       layout: single
       author_profile: true

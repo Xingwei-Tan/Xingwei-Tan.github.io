@@ -1,0 +1,30 @@
+{% comment %}
+  Compact renderer for one publication. Unlike archive-single.html (which titles each
+  item with an <h2>, the same level as the section headings, and links to a near-empty
+  stub page) this links the title straight to the paper and keeps each entry to three
+  tight lines. archive-single.html is left alone because /teaching/ still uses it.
+{% endcomment %}
+<div class="pub">
+  <div class="pub__title">
+    {% if post.paperurl %}
+      <a href="{{ post.paperurl }}">{{ post.title }}</a>
+    {% else %}
+      {{ post.title }}
+    {% endif %}
+  </div>
+
+  {% if post.citation %}
+    <div class="pub__authors">{{ post.citation | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+  {% endif %}
+
+  <div class="pub__meta">
+    <span class="pub__venue">{{ post.venue }}</span>{% if post.date %}, {{ post.date | date: "%Y" }}{% endif %}
+    {% if post.paperurl or post.codeurl or post.slidesurl %}
+      <span class="pub__links">
+        {% if post.paperurl %}<a href="{{ post.paperurl }}">Paper</a>{% endif %}
+        {% if post.codeurl %}<a href="{{ post.codeurl }}">Code</a>{% endif %}
+        {% if post.slidesurl %}<a href="{{ post.slidesurl }}">Slides</a>{% endif %}
+      </span>
+    {% endif %}
+  </div>
+</div>
