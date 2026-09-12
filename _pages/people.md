@@ -10,7 +10,7 @@ excerpt: "PhD students and collaborators I work with."
 
 I am always glad to hear from students interested in reasoning, information extraction, or AI for Science — see [Contact]({{ base_path }}/#contact).
 
-PhD students and collaborators I have worked with:
+PhD students I have worked with:
 ======
 
 <!-- TODO (Xingwei): I derived this list from co-authorship on your papers, so please confirm it
@@ -45,20 +45,3 @@ PhD students and collaborators I have worked with:
   Instruction tuning and robustness to noisy supervision.<br />
   [Fine-Tuning on Noisy Instructions](https://aclanthology.org/2025.ijcnlp-long.41/) (AACL–IJCNLP 2025)
 
-
-
-Collaborators
-======
-
-<!-- TODO (Xingwei): trim or extend this list as you see fit, and add links where useful. -->
-
-I work, or have worked, closely with:
-
-* **[Nikolaos Aletras](https://sheffield.ac.uk/cs/people/academic/nikos-aletras)** — University of Sheffield
-* **[Maria Liakata](https://www.qmul.ac.uk/eecs/people/profiles/liakatamaria.html)** — Queen Mary University of London
-* **Marco Valentino** — neuro-symbolic reasoning and process supervision
-* **[Yulan He](https://www.kcl.ac.uk/people/yulan-he)** — King's College London (PhD supervisor)
-* **[Gabriele Pergola](https://warwick.ac.uk/fac/sci/dcs/people/u1898418/)** — University of Warwick (PhD supervisor)
-* **Nafise Sadat Moosavi** — University of Sheffield
-* **Chiara Gambi** — University of Warwick
-* **Zhixue Zhao** — University of Sheffield
