@@ -77,13 +77,13 @@ I release code and data for my work. A few artifacts that may be useful on their
 * **[IntrEx](https://github.com/Xingwei-Tan/IntrEx)** — the first large-scale dataset annotated for
   *interestingness* and *expected interestingness* in teacher–student interactions.
   <span style="white-space: nowrap;">([Findings of EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.1191/))</span>
-* **[Symbolic-Guided_MC](https://github.com/Xingwei-Tan/Symbolic-Guided_MC)** — symbolically-guided
+* **[Symbolic-Guided_MC](https://github.com/Xingwei-Tan/Symbolic-Guided_MC) & [Symbreact-Trace](https://huggingface.co/collections/XingweiT/symbreact-trace)** — symbolically-guided
   Monte Carlo process supervision for training on the validity of intermediate reasoning steps.
   <span style="white-space: nowrap;">([EMNLP 2025](https://aclanthology.org/2025.emnlp-main.1624/))</span>
 * **[CALLMSAE](https://github.com/Xingwei-Tan/CALLMSAE)** — a cascading LLM pipeline for generating
   salient event graphs from documents, without reference graphs.
   <span style="white-space: nowrap;">([NAACL 2025](https://aclanthology.org/2025.naacl-long.112/))</span>
-* **[hyper-event-TempRel](https://github.com/Xingwei-Tan/hyper-event-TempRel)** — Poincaré event
+* **[Hyper-event-TempRel](https://github.com/Xingwei-Tan/hyper-event-TempRel)** — Poincaré event
   embeddings and a hyperbolic GRU for event temporal relation extraction.
   <span style="white-space: nowrap;">([EMNLP 2021](https://aclanthology.org/2021.emnlp-main.636/))</span>
 * **[SafeSpeech](https://aclanthology.org/2025.naacl-demo.31/)** — an interactive tool for analysing
@@ -91,6 +91,14 @@ I release code and data for my work. A few artifacts that may be useful on their
   <span style="white-space: nowrap;">(NAACL 2025 System Demonstration)</span>
 
 More on [GitHub](https://github.com/Xingwei-Tan).
+
+
+## Talks
+
+* **Nov 2025** · South China University of Technology · School of Software Engineering · Invited by Prof. Yi Cai · "Enhancing Logical Reasoning in Language Models via Symbolically-Guided Monte Carlo Process Supervision"
+* **June 2025** · King’s College London · Institute of Psychiatry, Psychology & Neuroscience · Clinical NLP Reading Group · Invited by Dr. Tao Wang · "Understanding Event Relations in Text via Representation Learning and LLM-based Graph Generation"
+* **Nov 2024** · The Alan Turing Institute · NLP Special Interest Group · Invited by Dr. Anthony R. Hills · "Understanding Event Relations in Text via Representation Learning and LLM-based Graph Generation"
+
 
 ## Experience & Education
 
