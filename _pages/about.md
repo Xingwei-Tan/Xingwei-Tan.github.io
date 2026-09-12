@@ -18,7 +18,8 @@ My research investigates **the mechanisms underlying reasoning in large language
 
 Three recent threads give a sense of the work. On *inducing* reasoning, [Symbolically-Guided Monte Carlo Process Supervision](https://aclanthology.org/2025.emnlp-main.1624/) (EMNLP 2025) uses symbolic structure to generate reliable process-level reward signals, training on the validity of intermediate steps rather than only the final answer. On *faithfulness*, [Analysing Chain of Thought Dynamics](https://aclanthology.org/2025.emnlp-main.1516/) (EMNLP 2025) asks whether chain-of-thought genuinely guides a model's computation or is reconstructed after the fact. On *transfer*, [Fundamental Reasoning Paradigms](https://doi.org/10.18653/v1/2026.findings-acl.1653) (Findings of ACL 2026) studies which training signals induce reasoning that survives a shift out of domain.
 
-This builds on a broader background in **information extraction and language understanding** — event relation extraction, event graph generation, and question answering — and is grounded in applied work with legal and law-enforcement partners, where reasoning failures carry serious consequences. My PhD thesis was *"Understanding Event Relation in Text via Representation Learning and LLM-based Graph Generation"*.
+This builds on a broader background in **information extraction and language understanding** (e.g., event
+relation extraction, event graph generation, and question answering) and is grounded in applied work with legal and law-enforcement partners, where reasoning failures carry serious consequences. My PhD thesis was *"Understanding Event Relation in Text via Representation Learning and LLM-based Graph Generation"*.
 
 I am happy to collaborate on:
 
@@ -27,6 +28,7 @@ I am happy to collaborate on:
 * **Evaluation of LLMs:** especially in high-stakes domains such as law
 * **Event-centric NLP:** event detection, event relation extraction, temporal and salient event graph generation
 * **AI for policing and education:** harmful and abusive language detection, modelling engagement in educational dialogue
+* **AI for Science** 
 
 ## News
 
@@ -81,7 +83,7 @@ See the [full list of publications](/publications/) or my [Google Scholar profil
 
 ## Contact
 
-I am always glad to hear from people working on reasoning, evaluation, or event understanding — and open to collaboration and research visits. Reach me at <Xingwei.Tan@sheffield.ac.uk>.
+I am always glad to hear from people working on reasoning, evaluation, or event understanding. I am open to collaboration, talk, and research visits. Reach me at <Xingwei.Tan@sheffield.ac.uk>.
 
 ---
 
