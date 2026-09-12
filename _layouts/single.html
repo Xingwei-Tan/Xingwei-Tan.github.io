@@ -47,16 +47,17 @@ layout: default
       <section class="page__content" itemprop="text">
         {{ content }}
 
-        {% if page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
-        {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">{{ page.citation }}<br /><a href="{{ page.slidesurl }}">Slides</a></p>
-        {% elsif page.citation %}
-          <p style="font-size: smaller">{{ page.citation }}</p>
-        {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Slides</a></p>
+        {% if page.citation %}
+          <p style="font-size: smaller">{{ page.citation | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+        {% endif %}
+
+        {% if page.paperurl or page.slidesurl or page.codeurl %}
+          <p style="font-size: smaller">
+            {% assign link_sep = '' %}
+            {% if page.paperurl %}<a href="{{ page.paperurl }}">Paper</a>{% assign link_sep = ' | ' %}{% endif %}
+            {% if page.slidesurl %}{{ link_sep }}<a href="{{ page.slidesurl }}">Slides</a>{% assign link_sep = ' | ' %}{% endif %}
+            {% if page.codeurl %}{{ link_sep }}<a href="{{ page.codeurl }}">Code</a>{% endif %}
+          </p>
         {% endif %}
 
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

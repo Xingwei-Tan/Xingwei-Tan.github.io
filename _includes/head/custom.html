@@ -24,6 +24,27 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
+<!-- Fallback Open Graph image, so shared links unfurl with a picture.
+     seo.html only emits og:image when a page sets header.image. -->
+{% unless page.header.image or page.header.overlay_image %}
+  {% if site.og_image %}<meta property="og:image" content="{{ site.og_image | prepend: '/images/' | prepend: site.url }}">{% endif %}
+{% endunless %}
+
+<!-- Google Scholar citation metadata, so individual publication pages are indexable -->
+{% if page.collection == 'publications' %}
+  <meta name="citation_title" content="{{ page.title | strip_html | escape }}">
+  {% if page.citation %}
+    {% assign author_list = page.citation | replace: '**', '' | replace: ', and ', ', ' | replace: ' and ', ', ' | split: ', ' %}
+    {% for author in author_list %}
+      {% assign author_name = author | strip %}
+      {% if author_name != '' %}<meta name="citation_author" content="{{ author_name | escape }}">{% endif %}
+    {% endfor %}
+  {% endif %}
+  {% if page.date %}<meta name="citation_publication_date" content="{{ page.date | date: '%Y/%m/%d' }}">{% endif %}
+  {% if page.venue %}<meta name="citation_journal_title" content="{{ page.venue | escape }}">{% endif %}
+  {% if page.paperurl %}<meta name="citation_pdf_url" content="{{ page.paperurl }}">{% endif %}
+{% endif %}
+
 
 <!-- Support for MatJax -->
 <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
