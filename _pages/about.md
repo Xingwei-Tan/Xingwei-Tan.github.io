@@ -74,6 +74,10 @@ See the [full list of publications](/publications/) or my [Google Scholar profil
 
 I release code and data for my work. A few artifacts that may be useful on their own:
 
+* **[Compliance vs. Sensibility](https://github.com/Xingwei-Tan/compliance_sensibility)** - Code and data for studying whether large language models actually follow an instruction to reason in a particular way (deductive, inductive, abductive).
+* **[SafeSpeech](https://aclanthology.org/2025.naacl-demo.31/)** — an interactive tool for analysing
+  sexist and abusive language in conversations, built with police partners.
+  <span style="white-space: nowrap;">(NAACL 2025 System Demonstration)</span>
 * **[IntrEx](https://github.com/Xingwei-Tan/IntrEx)** — the first large-scale dataset annotated for
   *interestingness* and *expected interestingness* in teacher–student interactions.
   <span style="white-space: nowrap;">([Findings of EMNLP 2025](https://aclanthology.org/2025.findings-emnlp.1191/))</span>
@@ -86,9 +90,7 @@ I release code and data for my work. A few artifacts that may be useful on their
 * **[Hyper-event-TempRel](https://github.com/Xingwei-Tan/hyper-event-TempRel)** — Poincaré event
   embeddings and a hyperbolic GRU for event temporal relation extraction.
   <span style="white-space: nowrap;">([EMNLP 2021](https://aclanthology.org/2021.emnlp-main.636/))</span>
-* **[SafeSpeech](https://aclanthology.org/2025.naacl-demo.31/)** — an interactive tool for analysing
-  sexist and abusive language in conversations, built with police partners.
-  <span style="white-space: nowrap;">(NAACL 2025 System Demonstration)</span>
+
 
 More on [GitHub](https://github.com/Xingwei-Tan).
 
