@@ -13,9 +13,6 @@ I am always glad to hear from students interested in reasoning, information extr
 PhD students I have worked with:
 ======
 
-<!-- TODO (Xingwei): I derived this list from co-authorship on your papers, so please confirm it
-     before publishing, and add personal-page or Google Scholar links where you have them. -->
-
 * **Samuel Lewis-Lim** — University of Sheffield<br />
   Chain-of-thought faithfulness, monitorbility, and efficiency.<br />
   [Analysing Chain of Thought Dynamics](https://aclanthology.org/2025.emnlp-main.1516/) (EMNLP 2025) ·
@@ -37,11 +34,14 @@ PhD students I have worked with:
   Relation extraction and graph construction in Psychology literature.<br />
   [EmpiriGraph-Psy: A Dataset and LLM Pipeline for Extracting Empirical Relation Graphs from Psychology Abstracts](https://arxiv.org/abs/2606.08362)
 
-* **Chen Lv** — University of Warwick<br />
+* **Chen Lyu** — University of Warwick<br />
   Conversation generation and AI for law enforcement.<br />
   [ConVAWG: A Retrieval-Grounded Framework for Controlled Synthetic Dialogue Generation in Violence Against Women and Girls](https://arxiv.org/abs/2608.11200)
 
-* **Ahmed Alajrami** — University of Sheffield<br />
+* **Xinjin Qi** — University of Sheffield<br />
+  Legal reasoning, AI for legal domain.<br />
+
+* **Ahmed Alajrami** — University of Sheffield (graduated)<br />
   Instruction tuning and robustness to noisy supervision.<br />
   [Fine-Tuning on Noisy Instructions](https://aclanthology.org/2025.ijcnlp-long.41/) (AACL–IJCNLP 2025)
 
