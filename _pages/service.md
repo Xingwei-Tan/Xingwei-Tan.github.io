@@ -8,13 +8,10 @@ excerpt: "Area chairing, reviewing, programme committees and mentoring."
 
 {% include base_path %}
 
-Senior Roles
+Reviewing
 ======
 * **Area Chair**, ACL Rolling Review (ACL ARR), 2025 – 2026<br />
   Rounds serving *EMNLP 2025* and *EACL 2026*.
-
-Reviewing
-======
 * **ACL Rolling Review (ACL ARR)**, 2023 – 2026<br />
   Rounds serving *NAACL 2024*, *ACL 2024*, *ACL 2026* and *EMNLP 2026*.
 * **Empirical Methods in Natural Language Processing (EMNLP)**, 2023.
@@ -26,6 +23,12 @@ Programme Committees and Organisation
 * **Programme Committee**, 4th Workshop on Mathematical Natural Language Processing (MathNLP) at EMNLP 2026.
 * **Programme Committee**, 3rd Workshop on Mathematical Natural Language Processing (MathNLP) at EMNLP 2025.
 * **Organiser**, NLP seminar series, University of Sheffield, 2024 – present.
+
+Conference Sessions and Panels
+======
+* **Session Chair**, Language Modelling, Empirical Methods in Natural Language Processing (EMNLP), 2026.
+* **Panelist**, "Credit, Confidentiality and Open Problems in the Age of Frontier AI", 4th Workshop on Mathematical Natural Language Processing (MathNLP) at EMNLP 2026.
+
 
 Mentoring
 ======

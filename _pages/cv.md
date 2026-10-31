@@ -78,6 +78,8 @@ Academic Service
 * **Programme Committee**, 4th Workshop on Mathematical Natural Language Processing (MathNLP) at EMNLP 2026.
 * **Programme Committee**, 3rd Workshop on Mathematical Natural Language Processing (MathNLP) at EMNLP 2025.
 * **Organiser**, NLP seminar series, University of Sheffield, 2024 – present.
+* **Session Chair**, Language Modelling, *EMNLP* 2026.
+* **Panelist**, "Credit, Confidentiality and Open Problems in the Age of Frontier AI", MathNLP at EMNLP 2026.
 * **Mentor** for 2 Student Research Workshop papers at EACL 2025.
 
 Publications
