@@ -67,7 +67,7 @@ Teaching and Supervision
   *Natural Language Processing* (M.Sc., 2020–2024); *Logic and Verification* (B.Sc., 2020–2023);
   *Formal Systems Development* (M.Sc., 2021–2022).<br />
   Duties: delivering seminars and lectures, advising laboratory experiments, and marking.
-* **Doctoral supervision** — co-supervised 6 Ph.D. students, resulting in 5 peer-reviewed publications.
+* **Doctoral supervision** — co-supervised 7 Ph.D. students, resulting in 5 peer-reviewed publications.
 
 Academic Service
 ======

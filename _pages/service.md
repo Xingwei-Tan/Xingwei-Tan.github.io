@@ -33,4 +33,4 @@ Conference Sessions and Panels
 Mentoring
 ======
 * Mentor for **2 Student Research Workshop papers** at EACL 2025.
-* Co-supervised **6 PhD students** — see [People]({{ base_path }}/people/).
+* Co-supervised **7 PhD students** — see [People]({{ base_path }}/people/).
